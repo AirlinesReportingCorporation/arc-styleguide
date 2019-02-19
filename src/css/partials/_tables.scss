@@ -1,0 +1,17 @@
+.table {
+  font-family: $source-sans-regular;
+}
+
+.table th, .table td {
+  padding: 1.875rem 1.5625rem;
+}
+
+.table thead th {
+  font-family: $source-sans-bold;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.table thead tr.bg-primary th {
+  border-bottom: none;
+}

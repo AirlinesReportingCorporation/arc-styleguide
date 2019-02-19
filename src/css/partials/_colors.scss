@@ -1,0 +1,44 @@
+$black: #242039;
+
+$darkblue: #0C1C47;
+$teal: #189bb0;
+$darkteal: #316677;
+$pink: #AB035C;
+
+$gradient: linear-gradient(to left, #AF1C63, #002554);
+
+.copy-darkblue {
+  color: $darkblue !important;
+}
+
+.copy-teal {
+  color: $teal !important;
+}
+
+.copy-darkteal {
+  color: $darkteal !important;
+}
+
+.copy-pink {
+  color: $pink !important;
+}
+
+.bg-darkblue {
+  background: $darkblue !important;
+}
+
+.bg-teal {
+  background: $teal !important;
+}
+
+.bg-darkteal {
+  background: $darkteal !important;
+}
+
+.bg-pink {
+  background: $pink !important;
+}
+
+.bg-gradient {
+  background: $gradient !important;
+}

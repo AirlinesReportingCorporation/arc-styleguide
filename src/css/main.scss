@@ -1,0 +1,20 @@
+//fonts
+@import "partials/fonts";
+
+//variables
+@import "partials/variables";
+
+//bootstrap overrides
+@import "partials/bootstrap-overrides";
+
+//animate library
+@import "partials/animate";
+
+//bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/highlight.js/styles/atom-one-dark";
+
+@import "partials/colors";
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/tables";

@@ -1,0 +1,18 @@
+//font variables
+$font-fallbacks: arial, sans-serif;
+
+$source-sans-light: SourceSansPro-Light, $font-fallbacks;
+$source-sans-regular: SourceSansPro-Regular, $font-fallbacks;
+$source-sans-semibold: SourceSansPro-SemiBold, $font-fallbacks;
+$source-sans-bold: SourceSansPro-Bold, $font-fallbacks;
+$source-sans-black: SourceSansPro-Black, $font-fallbacks;
+$source-sans-italic: SourceSansPro-SemiboldItalic, $font-fallbacks;
+
+$roboto-slab-light: RobotoSlab-Light, $font-fallbacks;
+$roboto-slab-regular: RobotoSlab-Regular, $font-fallbacks;
+$roboto-slab-bold: RobotoSlab-Bold, $font-fallbacks;
+
+/* header font sizes */
+$header-base-size: 3;
+$header-base-step: .75;
+$header-base-ratio: (3/2.25);

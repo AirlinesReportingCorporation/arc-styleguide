@@ -1,0 +1,106 @@
+/*
+
+Typography
+
+Vars used:
+$source-sans-black
+
+$header-base-size
+$header-base-step
+
+*/
+
+body {
+  font-family: $roboto-slab-regular;
+  color: #6c6c6c;
+}
+$h1-value: 3;
+$h2-value: 2.25;
+$h3-value: 1.625;
+$h4-value: 1.125;
+$h5-value: 1.0625;
+$h6-value: 1;
+
+$mobile-ratio: 0.75;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $source-sans-regular;
+  color: #242039;
+  margin-top: 15px;
+}
+
+h1 {
+  font-family: $source-sans-black;
+  font-size: $h1-value + rem;
+}
+
+h2 {
+  font-size: $h2-value + rem;
+}
+
+h3 {
+  font-family: $source-sans-bold;
+  font-size: $h3-value + rem;
+}
+
+h4 {
+  font-family: $source-sans-bold;
+  font-size: $h4-value + rem;
+}
+
+h5 {
+  font-size: $h5-value + rem;
+}
+
+h6 {
+  font-size: $h6-value + rem;
+}
+
+.mainTitle,
+.pageTitle {
+  font-size: 4rem;
+}
+
+.byline {
+  font-size: 1.75rem;
+  font-family: $source-sans-light;
+}
+@media screen and (max-width: 768px) {
+  .mainTitle,
+  .pageTitle {
+    font-size: 4rem * $mobile-ratio;
+  }
+
+  .byline {
+    font-size: 1.75rem * $mobile-ratio; 
+  }
+
+  h1 {
+    font-size: $h1-value * $mobile-ratio + rem;
+  }
+
+  h2 {
+    font-size: $h2-value * $mobile-ratio + rem;
+  }
+
+  h3 {
+    font-size: $h3-value * $mobile-ratio + rem;
+  }
+
+  h4 {
+    font-size: $h4-value * $mobile-ratio + rem;
+  }
+
+  h5 {
+    font-size: $h5-value * $mobile-ratio + rem;
+  }
+
+  h6 {
+    font-size: $h6-value * .6 + rem;
+  }
+}
