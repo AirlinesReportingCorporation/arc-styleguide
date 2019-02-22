@@ -1,10 +1,11 @@
 $black: #242039;
-
 $darkblue: #0C1C47;
 $teal: #189bb0;
 $darkteal: #316677;
 $pink: #AB035C;
-
+$darkpurple: #6B1C40;
+$green: #96BE3C;
+$coolgray: #D4D4D4;
 $gradient: linear-gradient(to left, #AF1C63, #002554);
 
 .copy-darkblue {
@@ -41,4 +42,16 @@ $gradient: linear-gradient(to left, #AF1C63, #002554);
 
 .bg-gradient {
   background: $gradient !important;
+}
+
+.bg-darkpuple {
+  background: $darkpurple !important;
+}
+
+.bg-green {
+  background: $green !important;
+}
+
+.bg-coolgray {
+  background: $coolgray !important;
 }

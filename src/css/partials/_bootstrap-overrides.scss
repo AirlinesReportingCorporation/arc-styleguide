@@ -3,3 +3,15 @@ $theme-colors: (
   "danger": #ff4136
 );
 $font-family-sans-serif: SourceSansPro-Regular, arial, sans-serif;
+@media screen and (min-width: 1600px) {
+  .container.container-longer,
+  .container.container-longer .row {
+    max-width: 1570px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container.container-longer,
+  .container.container-longer .row {
+    max-width: 1370px;
+  }
+}
