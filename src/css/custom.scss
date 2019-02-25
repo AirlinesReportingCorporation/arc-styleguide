@@ -30,6 +30,12 @@ pre {
   background: #ffffff;
   border: 1px solid #D4D4D4;
 
+  .paddedSectionItalics {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #aaaaaa;
+  }
+
   &.paddedSectionDark {
     background: #212226;
     border-color: #212226;
