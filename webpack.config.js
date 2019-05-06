@@ -8,6 +8,7 @@
 
   module.exports = [
 		{
+      mode: 'development',
 			entry: {
 					main: './src/js/main.js',
           custom: './src/js/custom.js'
