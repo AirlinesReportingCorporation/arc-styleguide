@@ -1,0 +1,28 @@
+//primary
+$arcteal: #189bb0;
+$tarmac: #2a2b2c;
+$altitude: #d4d4d4;
+
+//secondary
+$concourse: #316677;
+$flap: #C6B593;
+$fuselage: #6D6E71;
+
+//tertiary
+$nightshade: #383552;
+$signal: #f77f00;
+$airfield: #8ac926;
+
+$brand-colors: ("arcteal", $arcteal), ("tarmac", $tarmac),
+  ("altitude", $altitude), ("concourse", $concourse), ("flap", $flap),
+  ("fuselage", $fuselage), ("nightshade", $nightshade), ("signal", $signal),
+  ("airfield", $airfield);
+
+@each $color in $brand-colors {
+  &.type-color-#{nth($color,1)} {
+    color: nth($color, 2) !important;
+  }
+  &.bg-color-#{nth($color,1)} {
+    background: nth($color, 2) !important;
+  }
+}
